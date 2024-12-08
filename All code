@@ -1,1 +1,14 @@
 # fill with content Decemebr vacations
+# QU1
+# Ecrire la fonction permettant de créer et d'initialiser une transaction.
+
+Transaction* creation_transaction (int vendeur, int acheteur, float valeur) {
+  Transaction* new_trans = (Transaction*)malloc(sizeof(Transaction));
+  if (new_trans == NULL) {
+    return NULL;
+  }
+  new_trans->vendeur = vendeur;
+  new_trans->acheteur = acheteur;
+  new_trans->valeut = valeur;
+  return new_trans;
+}
