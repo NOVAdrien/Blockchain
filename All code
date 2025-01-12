@@ -1,6 +1,6 @@
 // Blockchains
 
-// Onjectif : Ecrire les fonctions permettant de gérer une blockchain simplifiée
+// Objectif : Ecrire les fonctions permettant de gérer une blockchain simplifiée
 
 /* On supose que:
 - une transaction est une structure composée du code du vendeur, du code de l'acheteur, et de la valeur de la transaction
